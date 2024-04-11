@@ -26,5 +26,43 @@ namespace N11320017_GUI_Class
         {
             label1.Text = tbInput.Text;
         }
+
+        private void tbInput_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label1_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void FormTextBox_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label2_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void textBox3_TextChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void label3_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            int a = Int32.Parse(textBox2.Text);
+            int b = Int32.Parse(textBox3.Text);
+            int sum = (a+b);
+            label4.Text = sum.ToString();
+        }
     }
 }
