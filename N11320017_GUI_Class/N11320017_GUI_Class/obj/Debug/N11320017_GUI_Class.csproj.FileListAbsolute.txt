@@ -22,3 +22,4 @@ C:\Users\julia\OneDrive\桌面\GUI_Class\N11320017_GUI_Class\N11320017_GUI_Class
 C:\Users\MEGAS\Desktop\GUI_Class\N11320017_GUI_Class\N11320017_GUI_Class\obj\Debug\N11320017_GUI_Class.FormButton.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N11320017_GUI_Class\N11320017_GUI_Class\obj\Debug\N11320017_GUI_Class.FormMain.resources
 C:\Users\MEGAS\Desktop\GUI_Class\N11320017_GUI_Class\N11320017_GUI_Class\obj\Debug\N11320017_GUI_Class.FormTextBox.resources
+C:\Users\MEGAS\Desktop\GUI_Class\N11320017_GUI_Class\N11320017_GUI_Class\obj\Debug\N11320017_GUI_Class.MidExan_CtoF.resources

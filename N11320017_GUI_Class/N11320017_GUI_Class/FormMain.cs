@@ -28,5 +28,11 @@ namespace N11320017_GUI_Class
             Form formTextBox = new FormTextBox();
             formTextBox.Show();
         }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            Form form = new MidExan_CtoF();
+            form.Show();
+        }
     }
 }
