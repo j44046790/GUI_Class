@@ -40,5 +40,11 @@ namespace N11320017_GUI_Class
             Form from = new FromTimer();
             from.Show();
         }
+
+        private void btnGame_Click(object sender, EventArgs e)
+        {
+            Form from = new FormGameFinalPaseword();
+            from.Show();
+        }
     }
 }

@@ -36,6 +36,7 @@
             this.btnTextBox = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
+            this.btnGame = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button1
@@ -129,12 +130,24 @@
             this.button4.UseVisualStyleBackColor = false;
             this.button4.Click += new System.EventHandler(this.button4_Click);
             // 
+            // btnGame
+            // 
+            this.btnGame.BackColor = System.Drawing.SystemColors.GradientInactiveCaption;
+            this.btnGame.Location = new System.Drawing.Point(367, 178);
+            this.btnGame.Name = "btnGame";
+            this.btnGame.Size = new System.Drawing.Size(98, 61);
+            this.btnGame.TabIndex = 8;
+            this.btnGame.Text = "終極密碼";
+            this.btnGame.UseVisualStyleBackColor = false;
+            this.btnGame.Click += new System.EventHandler(this.btnGame_Click);
+            // 
             // FormMain
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveCaption;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnGame);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
             this.Controls.Add(this.btnTextBox);
@@ -160,6 +173,7 @@
         private System.Windows.Forms.Button btnTextBox;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
+        private System.Windows.Forms.Button btnGame;
     }
 }
 
