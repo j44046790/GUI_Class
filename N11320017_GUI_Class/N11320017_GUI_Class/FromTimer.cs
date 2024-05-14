@@ -44,5 +44,16 @@ namespace N11320017_GUI_Class
         {
             timer1.Enabled = true;
         }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            timer1.Enabled = false;
+        }
+
+        private void button3_Click(object sender, EventArgs e)
+        {
+            label1.Text = "0秒";
+            second = 0;
+        }
     }
 }
