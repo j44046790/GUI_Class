@@ -28,6 +28,7 @@ namespace N11320017_GUI_Class
                 if (input == this.answer)
                 {
                     MessageBox.Show("你答對了");
+                    MessageBox.Show(answer.ToString());
                 }
                 else if (input < this.answer)
                 {
@@ -59,7 +60,7 @@ namespace N11320017_GUI_Class
         {
             Random r = new Random();
             this.answer = r.Next(100);
-            MessageBox.Show(answer.ToString());
+            
             label1.Text = ("已隨機產生0~100的數字,請在下方作答");
             label2.Text = string.Format("請輸入{0}~{1}之間的數值", min, max);
         }

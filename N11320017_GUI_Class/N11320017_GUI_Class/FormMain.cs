@@ -46,5 +46,11 @@ namespace N11320017_GUI_Class
             Form from = new FormGameFinalPaseword();
             from.Show();
         }
+
+        private void button5_Click(object sender, EventArgs e)
+        {
+            Form from = new FormMenu();
+            from.Show();
+        }
     }
 }
