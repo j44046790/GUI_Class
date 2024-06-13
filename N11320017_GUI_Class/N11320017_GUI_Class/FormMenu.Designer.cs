@@ -52,18 +52,19 @@
             this.panel1.Controls.Add(this.checkBox2);
             this.panel1.Controls.Add(this.checkBox1);
             this.panel1.Controls.Add(this.label1);
-            this.panel1.Location = new System.Drawing.Point(1, 3);
+            this.panel1.Location = new System.Drawing.Point(1, 2);
+            this.panel1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(402, 415);
+            this.panel1.Size = new System.Drawing.Size(302, 332);
             this.panel1.TabIndex = 0;
-
             // 
             // checkBox4
             // 
             this.checkBox4.AutoSize = true;
-            this.checkBox4.Location = new System.Drawing.Point(128, 215);
+            this.checkBox4.Location = new System.Drawing.Point(96, 172);
+            this.checkBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox4.Name = "checkBox4";
-            this.checkBox4.Size = new System.Drawing.Size(71, 19);
+            this.checkBox4.Size = new System.Drawing.Size(60, 16);
             this.checkBox4.TabIndex = 10;
             this.checkBox4.Text = "排骨飯";
             this.checkBox4.UseVisualStyleBackColor = true;
@@ -71,9 +72,10 @@
             // checkBox3
             // 
             this.checkBox3.AutoSize = true;
-            this.checkBox3.Location = new System.Drawing.Point(128, 177);
+            this.checkBox3.Location = new System.Drawing.Point(96, 142);
+            this.checkBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox3.Name = "checkBox3";
-            this.checkBox3.Size = new System.Drawing.Size(71, 19);
+            this.checkBox3.Size = new System.Drawing.Size(60, 16);
             this.checkBox3.TabIndex = 9;
             this.checkBox3.Text = "蛋炒飯";
             this.checkBox3.UseVisualStyleBackColor = true;
@@ -81,9 +83,10 @@
             // checkBox2
             // 
             this.checkBox2.AutoSize = true;
-            this.checkBox2.Location = new System.Drawing.Point(128, 134);
+            this.checkBox2.Location = new System.Drawing.Point(96, 107);
+            this.checkBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox2.Name = "checkBox2";
-            this.checkBox2.Size = new System.Drawing.Size(56, 19);
+            this.checkBox2.Size = new System.Drawing.Size(48, 16);
             this.checkBox2.TabIndex = 8;
             this.checkBox2.TabStop = false;
             this.checkBox2.Text = "水餃";
@@ -92,9 +95,10 @@
             // checkBox1
             // 
             this.checkBox1.AutoSize = true;
-            this.checkBox1.Location = new System.Drawing.Point(128, 96);
+            this.checkBox1.Location = new System.Drawing.Point(96, 77);
+            this.checkBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox1.Name = "checkBox1";
-            this.checkBox1.Size = new System.Drawing.Size(71, 19);
+            this.checkBox1.Size = new System.Drawing.Size(60, 16);
             this.checkBox1.TabIndex = 7;
             this.checkBox1.Text = "牛肉麵";
             this.checkBox1.UseVisualStyleBackColor = true;
@@ -102,9 +106,10 @@
             // label1
             // 
             this.label1.AutoSize = true;
-            this.label1.Location = new System.Drawing.Point(151, 53);
+            this.label1.Location = new System.Drawing.Point(113, 42);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(52, 15);
+            this.label1.Size = new System.Drawing.Size(41, 12);
             this.label1.TabIndex = 2;
             this.label1.Text = "主食區";
             // 
@@ -115,17 +120,19 @@
             this.panel2.Controls.Add(this.checkBox6);
             this.panel2.Controls.Add(this.checkBox5);
             this.panel2.Controls.Add(this.label6);
-            this.panel2.Location = new System.Drawing.Point(401, 4);
+            this.panel2.Location = new System.Drawing.Point(301, 3);
+            this.panel2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(411, 414);
+            this.panel2.Size = new System.Drawing.Size(308, 331);
             this.panel2.TabIndex = 1;
             // 
             // checkBox8
             // 
             this.checkBox8.AutoSize = true;
-            this.checkBox8.Location = new System.Drawing.Point(177, 210);
+            this.checkBox8.Location = new System.Drawing.Point(133, 168);
+            this.checkBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox8.Name = "checkBox8";
-            this.checkBox8.Size = new System.Drawing.Size(56, 19);
+            this.checkBox8.Size = new System.Drawing.Size(48, 16);
             this.checkBox8.TabIndex = 8;
             this.checkBox8.Text = "綠茶";
             this.checkBox8.UseVisualStyleBackColor = true;
@@ -133,9 +140,10 @@
             // checkBox7
             // 
             this.checkBox7.AutoSize = true;
-            this.checkBox7.Location = new System.Drawing.Point(177, 172);
+            this.checkBox7.Location = new System.Drawing.Point(133, 138);
+            this.checkBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox7.Name = "checkBox7";
-            this.checkBox7.Size = new System.Drawing.Size(71, 19);
+            this.checkBox7.Size = new System.Drawing.Size(60, 16);
             this.checkBox7.TabIndex = 7;
             this.checkBox7.Text = "冬瓜茶";
             this.checkBox7.UseVisualStyleBackColor = true;
@@ -143,9 +151,10 @@
             // checkBox6
             // 
             this.checkBox6.AutoSize = true;
-            this.checkBox6.Location = new System.Drawing.Point(177, 129);
+            this.checkBox6.Location = new System.Drawing.Point(133, 103);
+            this.checkBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox6.Name = "checkBox6";
-            this.checkBox6.Size = new System.Drawing.Size(56, 19);
+            this.checkBox6.Size = new System.Drawing.Size(48, 16);
             this.checkBox6.TabIndex = 6;
             this.checkBox6.Text = "紅茶";
             this.checkBox6.UseVisualStyleBackColor = true;
@@ -153,9 +162,10 @@
             // checkBox5
             // 
             this.checkBox5.AutoSize = true;
-            this.checkBox5.Location = new System.Drawing.Point(177, 94);
+            this.checkBox5.Location = new System.Drawing.Point(133, 75);
+            this.checkBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.checkBox5.Name = "checkBox5";
-            this.checkBox5.Size = new System.Drawing.Size(86, 19);
+            this.checkBox5.Size = new System.Drawing.Size(72, 16);
             this.checkBox5.TabIndex = 5;
             this.checkBox5.Text = "珍珠奶茶";
             this.checkBox5.UseVisualStyleBackColor = true;
@@ -163,33 +173,35 @@
             // label6
             // 
             this.label6.AutoSize = true;
-            this.label6.Location = new System.Drawing.Point(201, 52);
+            this.label6.Location = new System.Drawing.Point(151, 42);
+            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(52, 15);
+            this.label6.Size = new System.Drawing.Size(41, 12);
             this.label6.TabIndex = 0;
             this.label6.Text = "飲料區";
             // 
             // button1
             // 
-            this.button1.Location = new System.Drawing.Point(1, 424);
+            this.button1.Location = new System.Drawing.Point(1, 339);
+            this.button1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.button1.Name = "button1";
-            this.button1.Size = new System.Drawing.Size(811, 61);
+            this.button1.Size = new System.Drawing.Size(608, 49);
             this.button1.TabIndex = 1;
-            this.button1.Text = "button1";
+            this.button1.Text = "送餐";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
             // FormMenu
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 12F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(814, 484);
+            this.ClientSize = new System.Drawing.Size(610, 387);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.panel2);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "FormMenu";
             this.Text = "FormMenu";
-
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel2.ResumeLayout(false);
